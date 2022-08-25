@@ -1,0 +1,46 @@
+.NewMovies {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+}
+.h2 {
+    color: #ffffff60;
+}
+
+@media (max-width:1345px) {
+
+    .NewMovies {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+    }
+
+}
+
+@media (max-width:1070px) {
+
+    .NewMovies {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+}
+
+@media (max-width:820px) {
+
+    .NewMovies {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+}
+
+@media (max-width:580px) {
+
+    .NewMovies {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+}
+

@@ -1,0 +1,97 @@
+
+.IntroPage__container {
+    width: 100%;
+    background: #000; 
+    background: -webkit-linear-gradient(to right,#0b0e29,#060716,#060716,#060716,#03030b);
+    background: linear-gradient(to right,#0b0e29,#060716,#060716,#060716,#03030b);
+}
+.IntroPage__login {
+    position: fixed;
+    top: 20px; right: 20px;
+}
+.IntroPage__textsContainer {
+    height: 100vh;
+    color: #fff;
+    display: grid;
+}
+.IntroPage__texts {
+    font-size: 25px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.IntroPage__texts h3 {
+    font-size: 25px;
+    line-height: 1;
+}
+.IntroPage__texts h1 {
+    font-size: 100px;
+    line-height: 1.25;
+}
+.IntroPage__button {
+    padding: 10px 50px;
+    background: #1973c8;
+    border-style: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.IntroPage__inputContainer {
+    margin-bottom: 30px;
+    border-bottom: 1px #fff solid;
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    gap: 0 10px;
+    padding-left: 10px;
+}
+.IntroPage__inputContainer img {
+    width: 100%;
+    margin: auto;
+}
+.IntroPage__inputContainer input {
+    background-color: #00000000;
+    border-style: none;
+    color: #fff;
+    outline: none;
+}
+.IniciarSesionPage__button {
+    width: 100%;
+}
+
+.IntroPage__errorSpan {
+    grid-column: 2 / 3;
+    max-width: 425px;
+    color: #de3535;
+    text-align: left;
+}
+
+@media (max-width:570px) {
+
+    .IntroPage__texts h1 {
+        font-size: 75px;
+    }
+    .IntroPage__texts h3 {
+        font-size: 20px;
+    }
+    .IntroPage__texts {
+        font-size: 20px;
+    }
+    .IntroPage__errorSpan {
+        max-width: 345px;
+    }
+}
+
+@media (max-width:370px) {
+
+    .IntroPage__texts h1 {
+        font-size: 50px;
+    }
+    .IntroPage__texts h3 {
+        font-size: 15px;
+    }
+    .IntroPage__texts {
+        font-size: 15px;
+    }
+    .IntroPage__errorSpan {
+        max-width: 270px;
+    }
+}

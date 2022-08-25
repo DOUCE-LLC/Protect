@@ -1,0 +1,25 @@
+.Home {
+    width: 100%;
+    background: #060716;
+    padding: 50px 75px;
+}
+.Home__popularMovies h2 {
+    color: #ffffff60;
+    margin-bottom: 25px;
+}
+
+@media (max-width:440px) {
+
+    .Home {
+        padding: 30px 50px;
+    }
+
+}
+
+@media (max-width:350px) {
+
+    .Home {
+        padding: 30px 20px;
+    }
+
+}

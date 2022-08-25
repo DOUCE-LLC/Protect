@@ -1,0 +1,10 @@
+.Loading {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background-color: #060716;
+}
+.spinner {
+    margin: auto;
+    overflow-y: hidden;
+}

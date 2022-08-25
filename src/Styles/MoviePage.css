@@ -1,0 +1,81 @@
+.MoviePage__container {
+    display: grid;
+    background: #060716;
+}
+.MoviePage {
+    width: auto;
+    margin: auto;
+    padding: 50px 75px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+    gap: 50px;
+}
+.MoviePage__img {
+    margin-left: auto;
+}
+.MoviePage__texts {
+    max-width: 700px;
+    margin-right: auto;
+}
+.MoviePage__texts h2 {
+    color: #fff;
+    font-size: 50px;
+}
+.MoviePage__texts h3 {
+    color: #ffffffaa;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.MoviePage__texts h4 {
+    color: #ffffff46;
+    display: inline;
+    margin-right: 30px;
+}
+#calificacion {
+    margin-top: 40px;
+}
+.MoviePage__texts h5 {
+    color: #ffffff46;
+}
+.MoviePage__texts p {
+    margin-top: 20px;
+    color: #ffffff32;
+}
+
+@media (max-width:1000px) {
+
+    .MoviePage {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        gap: 50px;
+    }
+    .MoviePage__img {
+        margin: auto;
+    }
+    .MoviePage__img img {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width:500px) {
+
+    .MoviePage {
+        padding: 50px 40px;
+    }
+    .MoviePage__texts h2 {
+        font-size: 40px;
+    }
+    .MoviePage__texts h3 {
+        font-size: 20px;
+    }
+
+}
+@media (max-width:375px) {
+
+    .MoviePage {
+        padding: 50px 10px;
+    }
+
+}
